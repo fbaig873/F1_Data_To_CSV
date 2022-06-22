@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from unidecode import unidecode
 import pandas as pd
 
-PATH = r"D:\Coding\F1_Data_To_CSV\files"
+PATH = r"files"
 result_file = os.path.join(PATH, "result.txt")
 
 def clean_list(string):

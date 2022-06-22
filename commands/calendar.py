@@ -3,7 +3,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import pandas as pd
 
-PATH = r"D:\Coding\F1_Data_To_CSV\files"
+PATH = r"files"
 data_file = os.path.join(PATH, "data.txt")
 
 def get_schedule(year):
